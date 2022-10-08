@@ -1,0 +1,36 @@
+<style>
+    *{
+    box-sizing: border-box;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    padding-left:50px;
+   
+}
+#divItem{
+    padding-left:50px;
+    box-shadow: 2px;
+    
+}
+</style>
+<h3>Available</h3>
+<div class="row" style="padding-bottom: 20px;">
+    <ng-container  *ngFor="let item of courseData">
+        <div class="column">
+            <div id="divItem">
+            <img src="{{item.imageurl}}" alt="course" width="50%" height="100px">
+            <p>Name:{{item.cname}}</p>
+            <p>Tutor:{{item.tutor}}</p>
+            <p>Duration:{{item.duration}}</p>
+            <button routerLink="/viewcourse/{{item.id}}">View Course</button>
+        </div>
+        </div>
+    </ng-container>   
+</div>

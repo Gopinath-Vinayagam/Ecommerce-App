@@ -1,0 +1,36 @@
+<h3>My Order</h3>
+
+<table class="table table-bordered">
+   
+    
+
+    <thead>
+        <tr>
+            <th>orderId</th>
+            <th>userId</th>
+            <th>totalPrice</th>
+            <th>orderDate</th>
+            <th>satus</th>
+            <th>modifiedDate</th>
+            <th>createdDate</th>
+            <th>createdBy</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let order of orders;">
+            <td>{{order.orderId}}</td>
+            <td>{{id}}</td>
+            <td>{{order.totalPrice}}</td>
+            <td>{{order.orderDate}}</td>
+            <td>{{order.status}}</td>
+            <td>{{order.modifiedDate}}</td>
+            <td>{{order.createdDate}}</td>
+           
+            <td><a routerLink="/add-review" class="btn btn-info">Add Review</a></td>
+            
+            <td><a routerLink="/support" class="btn btn-info">Support</a></td>
+            
+        </tr>
+    </tbody>
+</table>

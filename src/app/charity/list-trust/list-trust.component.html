@@ -1,0 +1,35 @@
+<h2>CHARITY TRUST</h2>
+<table class="table table-bordered">
+
+ 
+<div class="charity"><table class="table table-bordered">
+   
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <th>ORGANISATION NAME</th>
+            <th>EMAIL ID</th>
+            <th>ADDRESS</th>
+            <th>DISTRICT</th>
+            <th>STATE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let trust of trusts;">
+            <td>{{trust.id}}</td>
+            <td>{{trust.organisationname}}</td>
+            <td>{{trust.email}}</td>
+            <td>{{trust.address}}</td>
+            <td>{{trust.district}}</td>
+            <td>{{trust.state}}</td>
+            <td><button type="submit"routerLink="/donate">DONATE</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<style>
+.charity{
+padding-top: 100px;
+}
+</style>
+

@@ -1,0 +1,27 @@
+
+<h2>View Ticket</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Assigned To</th>
+            <th>Priority</th>
+            <th>Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngIf="ticketsUser">
+            <td>{{ticketsUser.id}}</td>
+            <td>{{ticketsUser.userId}}</td>
+            <td>{{ticketsUser.ticketTitle}}</td>
+            <td>{{ticketsUser.description}}</td>
+            <td>{{ticketsUser.status}}</td>
+            <td></td>
+            <td><button type="submit" routerLink="/update-ticket/{{ticketsUser.id}}" class="btn btn-primary">update</button></td>
+        </tr>
+    </tbody>
+</table>
