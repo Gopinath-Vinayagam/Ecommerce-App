@@ -40,33 +40,3 @@ Using our e-commerce web application, Customers are able to view a wide range of
 * User will be able to view bus details and book details.
 * Customers will be able to raise any issues.
 
-## Contributors
-
-> Here list the people who have contributed to this project.
-
-1. Arun kumar s
-2. Gopinath D
-3. Gopinath Vinayagam 
-4. Hariharan J
-5. Janathhanan
-6. Jeyaraj P
-7. Jotheeswari
-8. Kiruthiga D
-9. Kiruthika V
-10. Manobala
-11. Manoj kumar
-12. Murugan V
-13. Monisha G
-14. Niroshkumar GN
-15. Nithyakalyani YA
-16. Perianan
-17. Rajesh K
-19. Ramya A
-20. Selvamani S
-21. SelvaPraveen
-22. Shanmuga priya M
-23. Sunayanapandra
-24. Veera Varalakshmi S
-25. Antony vinothan
-26. Keerthana S
-26. Madhumitha S
